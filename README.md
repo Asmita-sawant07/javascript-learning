@@ -4,4 +4,4 @@
 
 - [x] Day 1 - JavaScript introduction and setup
 - [x] Day 2 - Variables and Git/GitHub practice
-- [ ] Day 3 - JavaScript data types
+- [x] Day 3 - JavaScript data types
