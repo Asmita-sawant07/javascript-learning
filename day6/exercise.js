@@ -20,3 +20,18 @@ const isEven = (num) => num % 2 === 0;
 console.log(isEven(8));
 console.log(isEven(13));
 console.log(isEven(0));
+// Find the largest number
+function findLargest(a,b,c){
+    let largest = a;
+    if(b>largest){
+    largest = b;
+    }
+    if(c>largest){
+     largest = c;
+    }
+      return largest;
+
+}
+console.log(findLargest(12, 45, 23));  
+console.log(findLargest(90, 10, 60));  
+console.log(findLargest(7, 7, 3)); 
