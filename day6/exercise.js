@@ -46,3 +46,12 @@ function factorial(number){
 console.log(factorial(5));  // 120
 console.log(factorial(4));  // 24
 console.log(factorial(0));  // 1
+//Shopping bill 
+function calculateFinalBill(price, quantity, discountPercent = 0){
+  const subtotal = price*quantity;
+  const discountAmount = (subtotal * discountPercent) / 100;
+  const finaltotal =subtotal - discountAmount;
+  return finaltotal
+}
+console.log(calculateFinalBill(200, 3, 10));  // 540
+console.log(calculateFinalBill(200, 3));      // 600
