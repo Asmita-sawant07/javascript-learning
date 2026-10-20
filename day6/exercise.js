@@ -38,7 +38,7 @@ console.log(findLargest(7, 7, 3));
 //Factorial using a function
 function factorial(number){
   let result = 1;
-  for(i=1;i<=number;i++){
+  for( let i=1;i<=number;i++){
     result = result*i;
   }
   return result;
