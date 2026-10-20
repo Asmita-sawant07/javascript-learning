@@ -35,3 +35,14 @@ function findLargest(a,b,c){
 console.log(findLargest(12, 45, 23));  
 console.log(findLargest(90, 10, 60));  
 console.log(findLargest(7, 7, 3)); 
+//Factorial using a function
+function factorial(number){
+  let result = 1;
+  for(i=1;i<=number;i++){
+    result = result*i;
+  }
+  return result;
+}
+console.log(factorial(5));  // 120
+console.log(factorial(4));  // 24
+console.log(factorial(0));  // 1
