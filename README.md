@@ -7,3 +7,4 @@
 - [x] Day 3 - JavaScript data types
 - [x] Day 4 - Operators and conditions
 - [x] Day 5 - Loops
+- [x] Day 6 — JavaScript Functions
