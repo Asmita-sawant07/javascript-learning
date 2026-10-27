@@ -34,3 +34,14 @@ for (const n of nums3) {
   }
 }
 console.log("Even:", even, "Odd:", odd);
+// 4. Search for a value
+function searchValue(arr, target) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === target) {
+      return i;
+    }
+  }
+  return -1;
+}
+console.log(searchValue([10, 20, 30, 40], 30)); 
+console.log(searchValue([10, 20, 30, 40], 99));
