@@ -8,3 +8,4 @@
 - [x] Day 4 - Operators and conditions
 - [x] Day 5 - Loops
 - [x] Day 6 — JavaScript Functions
+- [x] Day 7 — JavaScript Arrays
