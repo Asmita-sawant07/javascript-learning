@@ -45,3 +45,11 @@ function searchValue(arr, target) {
 }
 console.log(searchValue([10, 20, 30, 40], 30)); 
 console.log(searchValue([10, 20, 30, 40], 99));
+// 5. Reverse an array using a loop
+const original = [10, 20, 30, 40, 50];
+const reversed = [];
+
+for (let i = original.length - 1; i >= 0; i--) {
+  reversed.push(original[i]);
+}
+console.log(reversed);
