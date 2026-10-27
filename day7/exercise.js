@@ -21,3 +21,16 @@ for (const n of nums2) {
 }
 console.log("Largest:", largest);   
 console.log("Smallest:", smallest);
+// 3. Count even and odd
+const nums3 = [1, 4, 7, 10, 13, 16, 19, 22];
+let even = 0;
+let odd = 0;
+
+for (const n of nums3) {
+  if (n % 2 === 0) {
+    even++;
+  } else {
+    odd++;
+  }
+}
+console.log("Even:", even, "Odd:", odd);
